@@ -14,7 +14,8 @@ const ProjectsSection = () => {
         </h2>
 
         <ShinyButton icon={<ChevronRight />}>
-          <Link href="https://github.com/ThomasN0712" target="_blank">
+          <Link href="https://github.com/" target="_blank">
+            {/* Replace this with your GitHub profile */}
             All Projects
           </Link>
         </ShinyButton>

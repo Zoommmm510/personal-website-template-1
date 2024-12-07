@@ -5,6 +5,9 @@ import TechCard from "./Card/TechCard";
 import { motion } from "framer-motion";
 import FlickeringGrid from "./ui/FlickeringGrid";
 
+{
+  /* To remove or add any of the section, modify this below /> */
+}
 const categories = [
   {
     id: 1,

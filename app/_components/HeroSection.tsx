@@ -29,19 +29,25 @@ const HeroSection = () => {
             Based In California, USA
           </p>
           <TextGenerateEffect
-            words="Hi this is Thomas 👋"
+            words="Hi this is John 👋"
             className="text-[40px] md:text-6xl lg:text-7xl font-bold text-center max-w-5xl leading-snug tracking-wide waving-hand"
           />
+          {/* No waving hand version */}
+
+          {/* <TextGenerateEffect
+            words="Hi this is John"
+            className="text-[40px] md:text-6xl lg:text-7xl font-bold text-center max-w-5xl"
+          /> */}
           <p className="pt-5 pb-10 text-lg sm:text-base md:text-lg text-dark-200 dark:text-stone-200">
-            I&apos;m a Computer Science student, soon will graduate and are
-            actively looking for a job.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, nam
+            ullam! Totam libero quod laborum.
           </p>
           <div className="flex flex-col sm:flex-row items-center gap-4">
             <ShinyButton icon={<ChevronRight />}>
               <Link href="#work">See My Work</Link>
             </ShinyButton>
             <a
-              href="/resume/Thomas_resume.pdf"
+              href="/resume/resume.pdf"
               download
               className="flex items-center gap-2.5 group"
             >
@@ -51,11 +57,10 @@ const HeroSection = () => {
               </span>
             </a>
           </div>
-
           {/* Social Links */}
           <div className="flex items-center gap-6 mt-8">
             <a
-              href="https://www.linkedin.com/in/thomasnguyen0712/"
+              href="https://www.linkedin.com/" // Replace this with you linkedin profile
               target="_blank"
               rel="noopener noreferrer"
               className="text-dark-200 dark:text-stone-200 hover:text-primary transition-colors duration-200 transform hover:scale-150 hover:rotate-6"
@@ -63,7 +68,7 @@ const HeroSection = () => {
               <Linkedin size={24} />
             </a>
             <a
-              href="https://github.com/ThomasN0712"
+              href="https://github.com/" // Replace this with you github profile
               target="_blank"
               rel="noopener noreferrer"
               className="transform hover:scale-150 hover:-rotate-6 transition-all duration-300"
@@ -80,7 +85,7 @@ const HeroSection = () => {
               />
             </a>
             <a
-              href="mailto:thomasnguyen0712@gmail.com"
+              href="mailto:example@gmail.com" // Replace this with you email
               className="text-dark-200 dark:text-stone-200 hover:text-primary transition-colors duration-200 transform hover:scale-150 hover:rotate-6"
             >
               <Mail size={24} />
