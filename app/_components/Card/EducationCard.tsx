@@ -20,8 +20,8 @@ const EducationCard: React.FC<EducationCardProps> = ({ education }) => (
         <Image
           src={education.logo}
           alt={`${education.institution} logo`}
-          layout="fill"
-          objectFit="contain"
+          fill
+          style={{ objectFit: "contain" }}
         />
       </div>
     </div>

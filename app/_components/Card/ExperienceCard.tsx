@@ -20,8 +20,8 @@ const ExperienceCard: React.FC<ExperienceCardProps> = ({ experience }) => (
         <Image
           src={experience.logo}
           alt={`${experience.company} logo`}
-          layout="fill"
-          objectFit="contain"
+          fill
+          style={{ objectFit: "contain" }}
         />
       </div>
     </div>
@@ -29,7 +29,7 @@ const ExperienceCard: React.FC<ExperienceCardProps> = ({ experience }) => (
     {/* Experience box */}
     <div className="p-3 w-full">
       <div>
-        <p className="text-sm text-gray-200 text-gray-700 dark:text-gray-300">
+        <p className="text-sm text-gray-700 dark:text-gray-300">
           {experience.dates}
         </p>
         <h3 className="text-lg font-bold">{experience.company}</h3>
