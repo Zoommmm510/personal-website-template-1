@@ -26,7 +26,7 @@ const HeroSection = () => {
       >
         <div className="flex flex-col justify-center items-center relative z-10 text-center">
           <p className="uppercase font-bold text-sm tracking-widest">
-            Based In California, USA
+            Based In California, USA!!!!
           </p>
           <TextGenerateEffect
             words="Hi this is Jon minus h 👋"
