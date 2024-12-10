@@ -29,7 +29,7 @@ const HeroSection = () => {
             Based In California, USA
           </p>
           <TextGenerateEffect
-            words="Hi this is John 👋"
+            words="Hi this is Jon minus h 👋"
             className="text-[40px] md:text-6xl lg:text-7xl font-bold text-center max-w-5xl leading-snug tracking-wide waving-hand"
           />
           {/* No waving hand version */}
@@ -39,7 +39,7 @@ const HeroSection = () => {
             className="text-[40px] md:text-6xl lg:text-7xl font-bold text-center max-w-5xl"
           /> */}
           <p className="pt-5 pb-10 text-lg sm:text-base md:text-lg text-dark-200 dark:text-stone-200">
-            This is John and I like to eat cake.
+            This is Jon minus h and I like to eat cake.
           </p>
           <div className="flex flex-col sm:flex-row items-center gap-4">
             <ShinyButton icon={<ChevronRight />}>
@@ -60,7 +60,7 @@ const HeroSection = () => {
           <div className="flex items-center gap-6 mt-8">
             {/*LinkedIn*/}
             <a
-              href="https://www.linkedin.com/" // Replace this with you linkedin profile
+              href="https://www.linkedin.com/in/sumit-s-4fr33n4sm4/" // Replace this with you linkedin profile
               target="_blank"
               rel="noopener noreferrer"
               className="text-dark-200 dark:text-stone-200 duration-200 transform hover:scale-150 hover:rotate-6"
@@ -85,33 +85,9 @@ const HeroSection = () => {
                 className="w-6 h-6 hidden dark:block"
               />
             </a>
-            {/* X (formerly Twitter) */}
-            <a
-              href="https://twitter.com/" // Replace this with your X profile
-              target="_blank"
-              rel="noopener noreferrer"
-              className="transform hover:scale-150 hover:-rotate-6 duration-200"
-            >
-              <img
-                src="imgs/logos/x-logo.svg"
-                alt="X (formerly Twitter)"
-                className="w-6 h-6 filter dark:invert"
-              />
-            </a>
+            
 
-            {/* Facebook */}
-            <a
-              href="https://facebook.com/" // Replace this with your Facebook profile
-              target="_blank"
-              rel="noopener noreferrer"
-              className="transform hover:scale-150 hover:-rotate-6 duration-200"
-            >
-              <img
-                src="imgs/logos/facebook-logo.svg"
-                alt="Facebook"
-                className="w-6 h-6 filter dark:invert"
-              />
-            </a>
+            
 
             {/* Instagram */}
             <a

@@ -58,7 +58,7 @@ export interface Testimonial {
 export const experienceData: Experience[] = [
   {
     id: 1,
-    company: "Company Name 1",
+    company: "Nasa",
     logo: "/imgs/logos/csulb-logo.svg",
     position: "Position Title 1",
     dates: "Start Date 1 - End Date 1",
@@ -332,6 +332,13 @@ export const testimonialItems = [
   {
     id: "testimonial_id_2",
     name: "Name 2",
+    proffesion: "Profession 2",
+    description: "lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    image: "/imgs/avatars/default-avatar.jpg",
+  },
+  {
+    id: "testimonial_id_2",
+    name: "Joahwph",
     proffesion: "Profession 2",
     description: "lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     image: "/imgs/avatars/default-avatar.jpg",

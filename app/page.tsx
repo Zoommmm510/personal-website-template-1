@@ -25,7 +25,7 @@ const Homepage = () => {
         <Navbar navItems={navItems} />
         <HeroSection />
         <BackgroundSection />
-        <SkillsSection />
+        {/* <SkillsSection /> */}
         <ProjectsSection />
         <TestimonialsSection />
         <FooterSection />
